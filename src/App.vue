@@ -2,7 +2,7 @@
 <div id="app" class="row" @click="addSwatch()">
   <Mirror @swatchAdded="addSwatch" />
   <Stream :swatches="swatches" />
-  <div id="image-loader" />
+  <div id="image-loader" style="display: none"/>
 </div>
 </template>
 
